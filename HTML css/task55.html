@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            background-color: lightgray;
+        }
+
+        .header {
+            background-color: white;
+            padding: 10px;
+        }
+
+        .header input {
+            width: 100%;
+            border: 0;
+            font-size: 1em;
+        }
+
+        .home {
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            background: linear-gradient(violet, blueviolet);
+            padding: 5px;
+            vertical-align: middle;
+        }
+
+        .hint {
+            font-family: cursive;
+            font-size: 1em;
+            margin: 10px;
+        }
+
+        .cardtable {
+            width: 100%;
+            color:white;
+        }
+        .cardtable td{
+            border-radius: 5px;
+            width:50%;
+            height:100px;
+        }
+        .cardtable td h3{
+            margin: 0;
+            font-family: monospace;
+        }
+        .cardtable td img{
+            width:20px;
+            height: 20px;
+        }
+        .cardtable td h1{
+            margin: 0;
+            padding: 10px;
+            font-family: fantasy;
+        }
+        .cardtable td p{
+            margin: 0;
+            padding: 10px;
+            font-family:cursive;
+        }
+        .cardheader{
+            position: relative;
+        }
+        .cardheader h3{
+            position: absolute;
+            left:5px;
+            padding: 5px;
+        }
+        
+        .cardheader img{
+            position: absolute;
+            right:5px;
+            padding: 5px;
+        }
+        .card1 {
+            background: linear-gradient(to right, lightcoral, coral);
+        }
+
+        .card2 {
+            background: linear-gradient(to right, deepskyblue, deeppink);
+        }
+        .list{
+            width:100%;
+            background-color: white;
+            padding: 10px;
+        }
+        .list img{
+            width:40px;
+            height:40px;
+            border-radius: 100px;
+            vertical-align: middle;
+        }
+        .list .done{
+            border-radius: 5px;
+            padding: 5px 20px;
+            background: linear-gradient(to right, lightyellow,yellow);
+        }
+        .list .progress{
+            border-radius: 5px;
+            padding: 5px 20px;
+            background: linear-gradient(to right, pink,skyblue);
+        }
+        .list td{
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <input type="text" placeholder="Search" />
+    </div>
+    <div class="hint">
+        <img class="home" src="camera-4-32.png" /> Dashboard
+    </div>
+    <table class="cardtable">
+        <tr>
+            <td class="card1">
+                <div class="cardheader">
+                    <h3>Weekly Sales</h3>
+                    <img src="camera-4-32.png" />
+                </div>
+                <br/>
+                <h1>1500 OMR</h1>
+                <p>Increased by 60%</p>
+            </td>
+            <td class="card2">
+                <div class="cardheader">
+                    <h3>Weekly Orders</h3>
+                    <img src="camera-4-32.png" />
+                </div>
+                <br/>
+                <h1>2000 OMR</h1>
+                <p>Decreased by 10%</p>
+            </td>
+        </tr>
+    </table>
+    <div class="hint">
+        <img class="home" src="camera-4-32.png" /> Recent Tickets
+    </div>
+    <table class="list">
+        <tr>
+            <td>Assignee</td>
+            <td>Subject</td>
+            <td>Status</td>
+            <td>Last Update</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img1.jpeg" />
+                David
+            </td>
+            <td>
+                Fund is received
+            </td>
+            <td>
+                <button class="done">DONE</button>
+            </td>
+            <td>
+                Mar 16, 2020
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="bg1.jpg" />
+                Stella
+            </td>
+            <td>
+                High loading time
+            </td>
+            <td>
+                <button class="progress">PROGRESS</button>
+            </td>
+            <td>
+                Mar 20, 2020
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

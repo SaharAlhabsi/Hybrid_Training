@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+  html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        } 
+/*
+    //customize 
+    //sudo element
+    //tag/class::psedoelement
+*/
+    .p1{
+        font-size: 30px;
+    }
+    .p1::first-line{
+        color: aqua;
+        font-size: 50px;
+    }
+    .p2::first-letter{
+        color: brown;
+        font-size: 60px;
+    }
+      .p3::selection{
+        color: white;
+       background-color: palevioletred;
+    }
+    .p4{
+        background-color: darkseagreen;
+    }
+          .p4::before{
+/*              //content text or img*/
+        content: url(camera-4-32.png);
+/*
+              width: 100px;
+              height: 100px;
+*/
+    }
+</style>   
+</head>
+<body>
+ <p class="p1">
+    A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example, ::first-line can be used to change the font of the first line of a paragraph.
+    </p>   
+    <p class="p2">
+    A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example, ::first-line can be used to change the font of the first line of a paragraph.
+    </p> 
+    <p class="p3">
+    A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example, ::first-line can be used to change the font of the first line of a paragraph.
+    </p>  
+        <p class="p4">
+    A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example, ::first-line can be used to change the font of the first line of a paragraph.
+    </p>  
+</body>
+</html>

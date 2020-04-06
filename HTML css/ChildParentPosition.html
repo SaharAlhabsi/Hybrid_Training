@@ -1,0 +1,41 @@
+<html>
+<head>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding:0;
+        }
+        .child{
+             width: 100px;
+            height: 100px;
+            background-color: aqua;
+            /*            //it will disply outside div*/
+        position: absolute;
+           margin:auto;
+          bottom: 0;
+            right: 0;
+            top:0;
+            left:0;
+    
+            
+        }
+        .ParentDiv{
+             width: 100%;
+            height: 50%;
+            background-color: coral;
+            
+/*            //it will disply inside the parent div*/
+            position: relative;
+        }
+    </style>
+    </head>
+    <body>
+    <div class="ParentDiv">
+        <div class="child" align="center">
+        Text
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+html{
+     width: 100%;
+    height: 100%;
+}
+body{
+     width: 100%;
+    height: 100%;
+    
+     background-image:url(ionic.png), url(imag2.png);
+    
+    background-repeat: no-repeat, repeat-x ;
+     background-size: 100px 100px;
+    background-position:top center,bottom;
+    
+      
+}
