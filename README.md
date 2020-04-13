@@ -4,7 +4,7 @@ I have do 3 month training of hybrid mobile app in ionic framwork and angular
 
 
 It can helps for beginners:
-
+In Typescript: https://github.com/delprzemo/typescript-cheatsheet
 in Css:
 https://htmlcheatsheet.com/css/
 ![Screen Shot 2020-04-13 at 1 38 58 PM](https://user-images.githubusercontent.com/52737328/79111337-62d1d180-7d8d-11ea-8819-d3a77a510755.png)
