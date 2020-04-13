@@ -1,7 +1,7 @@
 # Hybrid_Training
 I have do 3 month training of hybrid mobile app in ionic framwork and angular
-# Hybrid_Training
-I have do 3 month training of hybrid mobile app in ionic framwork and angular
+# Cheatsheet
+
 
 It can helps for beginners:
 
